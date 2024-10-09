@@ -1,0 +1,32 @@
+Items: {
+	RazorbladeTyphoonProgress: {
+		TitleDamageInfo: "[УРОН]:"
+		TitleSpeedInfo: "[СКОРОСТЬ АТАКИ]:"
+		TitleCritInfo: "[ШАНС КРИТ. АТАКИ]:"
+		TitleManaInfo: "[УМЕНЬШЕНИЕ ЗАТРАТ МАНЫ]:"
+		TitlePenetrateInfo: "[ДОПОЛНИТЕЛЬНОЕ КОЛИЧЕСТВО ЦЕЛЕЙ СНАРЯДА]:"
+		TitleEffectsInfo: "[ДОПОЛНИТЕЛЬНЫЕ ЭФФЕКТЫ]:"
+		SwapPageTooltip:
+			'''
+
+			Страница {0} из {1}
+			(Переключение страниц на ПКМ по предмету)
+			'''
+		LevelInfo:
+			'''
+			Уровень {0} из {1}
+			Урона нанесено: {2} из {3}
+			'''
+		EffectsPlayerInfo: При использовании предмета персонаж получает эффект: {0}
+		EffectsNPCInfo: При получении урона от данного предмета NPC получает эффект: {0}
+		EffectsIsUseKeyInfo: "{$Items.RazorbladeTyphoonProgress.EffectsPlayerInfo} (Вкл/Выкл через горячую клавишу)"
+		EffectsIsNoCollideInfo: Снаряды данного оружия проходят сквозь блоки
+		Open: "[ОТКРЫТЫЕ]:"
+		Close: "[ЗАКРЫТЫЕ]:"
+		Maximum: "[МАКСИМУМ]"
+		DisplayName: Бритвенный тайфун
+		EffectsCountHealPercent: Вы восстанавливаете {0}% от нанесённого урона (с округлением в большую сторону) (проценты суммируются)
+	}
+}
+
+Buffs.MainBuff.DisplayName: Основной бафф (RazorbladeTyphoonProgress)
